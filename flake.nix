@@ -5,7 +5,7 @@
     # List of repos
     # nixpkgs        -> NixOS Unstable channel
     # nixpkgs-stable -> NixOS Stable channel (Currently Version 23.05)
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/a136def4f7256146b32e3625e53dcdf7464165f9"; # -> NixOS Unstable channel (Temporairly hardcoded to an older commit to prevent the amdgpu firmware issue)
     nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-23.05";
 
     home-manager = {
