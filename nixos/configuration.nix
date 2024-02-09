@@ -136,8 +136,12 @@
   # Environment Stuff
   environment = {
     sessionVariables = {
+      FLAKE = "/home/djgames/Flake/";
       MOZ_ENABLE_WAYLAND = "1";
     };
+    systemPackages = with pkgs; [
+      nh
+    ];
   };
 
   # Allow unfree packages
