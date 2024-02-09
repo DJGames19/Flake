@@ -1,2 +1,7 @@
-{...}: {
+{ config, ... }: 
+
+{
+  imports = [
+    ./theme.nix
+  ];
 }

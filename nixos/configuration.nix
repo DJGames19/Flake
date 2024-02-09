@@ -4,7 +4,7 @@
 
   imports = [
     ./dev-pkgs.nix
-    ./kde.nix
+    ./xfce.nix
     ./gaming.nix
   ];
 
